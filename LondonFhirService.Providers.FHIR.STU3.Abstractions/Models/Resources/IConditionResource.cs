@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Condition.</summary>
-    public interface IConditionResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Condition> { }
+    public interface IConditionResource : IResourceOperation<Condition> { }
 }

@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Sequence.</summary>
-    public interface ISequenceResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Sequence> { }
+    public interface ISequenceResource : IResourceOperation<Sequence> { }
 }

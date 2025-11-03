@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Location.</summary>
-    public interface ILocationResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Location> { }
+    public interface ILocationResource : IResourceOperation<Location> { }
 }

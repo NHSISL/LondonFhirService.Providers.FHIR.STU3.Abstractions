@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Library.</summary>
-    public interface ILibraryResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Library> { }
+    public interface ILibraryResource : IResourceOperation<Library> { }
 }

@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Provenance.</summary>
-    public interface IProvenanceResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Provenance> { }
+    public interface IProvenanceResource : IResourceOperation<Provenance> { }
 }

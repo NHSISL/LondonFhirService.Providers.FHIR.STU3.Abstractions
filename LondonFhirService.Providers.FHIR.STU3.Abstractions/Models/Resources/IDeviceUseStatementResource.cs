@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for DeviceUseStatement.</summary>
-    public interface IDeviceUseStatementResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<DeviceUseStatement> { }
+    public interface IDeviceUseStatementResource : IResourceOperation<DeviceUseStatement> { }
 }

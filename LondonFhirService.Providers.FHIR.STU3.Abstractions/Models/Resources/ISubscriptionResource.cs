@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Subscription.</summary>
-    public interface ISubscriptionResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Subscription> { }
+    public interface ISubscriptionResource : IResourceOperation<Subscription> { }
 }

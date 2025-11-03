@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Specimen.</summary>
-    public interface ISpecimenResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Specimen> { }
+    public interface ISpecimenResource : IResourceOperation<Specimen> { }
 }

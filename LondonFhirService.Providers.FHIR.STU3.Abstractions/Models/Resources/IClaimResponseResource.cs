@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for ClaimResponse.</summary>
-    public interface IClaimResponseResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<ClaimResponse> { }
+    public interface IClaimResponseResource : IResourceOperation<ClaimResponse> { }
 }

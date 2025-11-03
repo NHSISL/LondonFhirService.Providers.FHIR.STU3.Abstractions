@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for StructureMap.</summary>
-    public interface IStructureMapResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<StructureMap> { }
+    public interface IStructureMapResource : IResourceOperation<StructureMap> { }
 }

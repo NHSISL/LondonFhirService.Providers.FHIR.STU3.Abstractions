@@ -6,6 +6,7 @@ using System;
 using LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Exceptions;
 using Xeptions;
 
+using LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions
 {
     /// <summary>Exception mapping helpers for FhirAbstractionProvider.</summary>

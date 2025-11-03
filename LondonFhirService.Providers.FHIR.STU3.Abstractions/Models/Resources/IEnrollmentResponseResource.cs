@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for EnrollmentResponse.</summary>
-    public interface IEnrollmentResponseResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<EnrollmentResponse> { }
+    public interface IEnrollmentResponseResource : IResourceOperation<EnrollmentResponse> { }
 }

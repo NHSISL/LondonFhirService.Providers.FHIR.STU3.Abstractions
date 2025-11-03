@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for ValueSet.</summary>
-    public interface IValueSetResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<ValueSet> { }
+    public interface IValueSetResource : IResourceOperation<ValueSet> { }
 }
