@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Abstraction Provider/">
+    <Project Path="LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance/LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance.csproj" />
+    <Project Path="LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit/LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.csproj" />
+    <Project Path="LondonFhirService.Providers.FHIR.STU3.Abstractions/LondonFhirService.Providers.FHIR.STU3.Abstractions.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="LondonFhirService.Providers.FHIR.STU3.Abstractions.Infrastructure/LondonFhirService.Providers.FHIR.STU3.Abstractions.Infrastructure.csproj" />
+  </Folder>
+</Solution>
