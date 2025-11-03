@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for SupplyDelivery.</summary>
-    public interface ISupplyDeliveryResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<SupplyDelivery> { }
+    public interface ISupplyDeliveryResource : IResourceOperation<SupplyDelivery> { }
 }

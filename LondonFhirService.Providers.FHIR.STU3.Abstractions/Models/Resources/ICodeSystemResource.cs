@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for CodeSystem.</summary>
-    public interface ICodeSystemResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<CodeSystem> { }
+    public interface ICodeSystemResource : IResourceOperation<CodeSystem> { }
 }

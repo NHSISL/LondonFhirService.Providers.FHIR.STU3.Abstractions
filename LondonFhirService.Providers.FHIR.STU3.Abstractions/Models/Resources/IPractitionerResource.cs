@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Practitioner.</summary>
-    public interface IPractitionerResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Practitioner> { }
+    public interface IPractitionerResource : IResourceOperation<Practitioner> { }
 }

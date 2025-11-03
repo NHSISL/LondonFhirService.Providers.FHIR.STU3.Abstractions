@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Endpoint.</summary>
-    public interface IEndpointResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Endpoint> { }
+    public interface IEndpointResource : IResourceOperation<Endpoint> { }
 }

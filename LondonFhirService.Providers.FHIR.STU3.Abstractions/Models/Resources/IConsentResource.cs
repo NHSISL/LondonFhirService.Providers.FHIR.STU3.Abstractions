@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Consent.</summary>
-    public interface IConsentResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Consent> { }
+    public interface IConsentResource : IResourceOperation<Consent> { }
 }

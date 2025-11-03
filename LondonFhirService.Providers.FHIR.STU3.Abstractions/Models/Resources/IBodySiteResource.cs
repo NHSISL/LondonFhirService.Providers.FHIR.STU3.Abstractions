@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for BodySite.</summary>
-    public interface IBodySiteResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<BodySite> { }
+    public interface IBodySiteResource : IResourceOperation<BodySite> { }
 }

@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for MedicationStatement.</summary>
-    public interface IMedicationStatementResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<MedicationStatement> { }
+    public interface IMedicationStatementResource : IResourceOperation<MedicationStatement> { }
 }

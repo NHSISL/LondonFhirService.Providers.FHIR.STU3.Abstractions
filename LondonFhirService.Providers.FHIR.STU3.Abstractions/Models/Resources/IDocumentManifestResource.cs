@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for DocumentManifest.</summary>
-    public interface IDocumentManifestResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<DocumentManifest> { }
+    public interface IDocumentManifestResource : IResourceOperation<DocumentManifest> { }
 }

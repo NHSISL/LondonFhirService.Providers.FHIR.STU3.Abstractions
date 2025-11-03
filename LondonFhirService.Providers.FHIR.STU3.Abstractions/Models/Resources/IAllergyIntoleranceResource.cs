@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for AllergyIntolerance.</summary>
-    public interface IAllergyIntoleranceResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<AllergyIntolerance> { }
+    public interface IAllergyIntoleranceResource : IResourceOperation<AllergyIntolerance> { }
 }

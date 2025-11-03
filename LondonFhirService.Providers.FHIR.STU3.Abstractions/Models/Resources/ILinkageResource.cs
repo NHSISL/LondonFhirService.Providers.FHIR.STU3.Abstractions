@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Linkage.</summary>
-    public interface ILinkageResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Linkage> { }
+    public interface ILinkageResource : IResourceOperation<Linkage> { }
 }

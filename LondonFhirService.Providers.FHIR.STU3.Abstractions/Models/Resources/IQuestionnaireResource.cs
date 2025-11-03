@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for Questionnaire.</summary>
-    public interface IQuestionnaireResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<Questionnaire> { }
+    public interface IQuestionnaireResource : IResourceOperation<Questionnaire> { }
 }

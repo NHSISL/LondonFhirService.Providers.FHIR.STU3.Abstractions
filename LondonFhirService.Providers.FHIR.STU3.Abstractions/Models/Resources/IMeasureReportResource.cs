@@ -7,5 +7,5 @@ using Hl7.Fhir.Model;
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
 {
     /// <summary>FHIR STU3 provider interface for MeasureReport.</summary>
-    public interface IMeasureReportResource : LondonFhirService.Providers.FHIR.STU3.Abstractions.IResourceOperation<MeasureReport> { }
+    public interface IMeasureReportResource : IResourceOperation<MeasureReport> { }
 }
