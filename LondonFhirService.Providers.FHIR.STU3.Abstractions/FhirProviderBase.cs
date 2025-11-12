@@ -16,17 +16,40 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions
     {
         private ProviderCapabilities providerCapabilities;
 
-        /// <summary>Gets the unique name used to identify the provider. Defaults to the full type name.</summary>
+        /// <summary>
+        /// Gets the unique name used to identify the provider. Defaults to the full type name
+        /// (namespace + class name).
+        /// </summary>
         public virtual string ProviderName => GetType().FullName ?? GetType().Name;
 
-        /// <summary>Gets the source system URI used for <c>Bundle.meta.source</c>.</summary>
+        /// <summary>
+        /// Gets the canonical source URI for the provider. This value is placed in Bundle.meta.source to
+        /// indicate the origin system of the resources.
+        /// </summary>
         public abstract string Source { get; }
 
-        /// <summary>Gets the provider code used for <c>Bundle.meta.tag.code</c>.</summary>
+        /// <summary>
+        /// Gets the short code representing this provider. This value is placed in Bundle.meta.tag.code
+        /// for quick filtering and grouping of Bundles.
+        /// </summary>
         public abstract string Code { get; }
 
-        /// <summary>Gets the CodeSystem used for <c>Bundle.meta.tag.system</c>.</summary>
+        /// <summary>
+        /// Gets the CodeSystem URI that defines the namespace for provider codes. This value is placed
+        /// in Bundle.meta.tag.system alongside the Code.
+        /// </summary>
         public abstract string System { get; }
+
+        /// <summary>
+        /// Gets the display name for this provider. This value is placed in Bundle.meta.tag.display
+        /// This is a human-readable name for the provider. 
+        /// </summary>
+        public abstract string DisplayName { get; }
+
+        /// <summary>
+        /// Gets the FHIR version supported by this provider. This value is placed in Bundle.meta.fhirVersion
+        /// </summary>
+        public abstract string FhirVersion { get; }
 
         /// <summary>
         /// Gets the provider capabilities, including the set of supported resources. This is computed lazily
