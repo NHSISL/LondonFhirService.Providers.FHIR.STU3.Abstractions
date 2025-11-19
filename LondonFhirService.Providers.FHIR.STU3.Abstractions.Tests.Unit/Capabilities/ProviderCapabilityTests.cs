@@ -47,7 +47,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Capabili
             var patientResource = capabilities.SupportedResources.Single();
             patientResource.ResourceName.Should().Be(patientResourceName);
             patientResource.SupportedOperations.Should().ContainSingle();
-            patientResource.SupportedOperations.Should().Contain("Everything");
+            patientResource.SupportedOperations.Should().Contain("EverythingAsync");
         }
     }
 }
