@@ -47,7 +47,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Extensio
             OutputCapabilities(provider);
 
             // when
-            var result = provider.SupportsResource("Patients", "Everything");
+            var result = provider.SupportsResource("Patients", "EverythingAsync");
 
             // then
             result.Should().BeTrue();

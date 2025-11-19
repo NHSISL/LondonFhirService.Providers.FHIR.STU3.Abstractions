@@ -70,7 +70,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>The requested resource.</returns>
-        public virtual ValueTask<TResource> Read(
+        public virtual ValueTask<TResource> ReadAsync(
             string id,
             CancellationToken cancellationToken = default) =>
             throw new NotImplementedException();
@@ -84,7 +84,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>The requested version of the resource.</returns>
-        public virtual ValueTask<TResource> VRead(
+        public virtual ValueTask<TResource> VReadAsync(
             string id,
             string versionId,
             CancellationToken cancellationToken = default) =>
@@ -100,7 +100,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>A bundle containing the change history for the resource.</returns>
-        public virtual ValueTask<Bundle> HistoryInstance(
+        public virtual ValueTask<Bundle> HistoryInstanceAsync(
             string id,
             DateTimeOffset? since = null,
             int? count = null,
@@ -115,7 +115,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>A bundle of matching resources (searchset).</returns>
-        public virtual ValueTask<Bundle> Search(
+        public virtual ValueTask<Bundle> SearchAsync(
             SearchParams @params,
             CancellationToken cancellationToken = default) =>
             throw new NotImplementedException();
@@ -129,7 +129,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>A bundle containing change history for this resource type.</returns>
-        public virtual ValueTask<Bundle> HistoryType(
+        public virtual ValueTask<Bundle> HistoryTypeAsync(
             DateTimeOffset? since = null,
             int? count = null,
             CancellationToken cancellationToken = default) =>
@@ -144,7 +144,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>A bundle containing system-wide change history.</returns>
-        public virtual ValueTask<Bundle> HistorySystem(
+        public virtual ValueTask<Bundle> HistorySystemAsync(
             DateTimeOffset? since = null,
             int? count = null,
             CancellationToken cancellationToken = default) =>
@@ -158,7 +158,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>The newly created resource.</returns>
-        public virtual ValueTask<TResource> Create(
+        public virtual ValueTask<TResource> CreateAsync(
             TResource resource,
             CancellationToken cancellationToken = default) =>
             throw new NotImplementedException();
@@ -171,7 +171,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>The updated resource.</returns>
-        public virtual ValueTask<TResource> Update(
+        public virtual ValueTask<TResource> UpdateAsync(
             TResource resource,
             CancellationToken cancellationToken = default) =>
             throw new NotImplementedException();
@@ -185,7 +185,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>The updated resource after patch.</returns>
-        public virtual ValueTask<TResource> Patch(
+        public virtual ValueTask<TResource> PatchAsync(
             string id,
             Parameters patchParameters,
             CancellationToken cancellationToken = default) =>
@@ -199,7 +199,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// Optional token to observe while awaiting the operation. Defaults to <see cref="CancellationToken.None"/>.
         /// </param>
         /// <returns>An <see cref="OperationOutcome"/> indicating the result.</returns>
-        public virtual ValueTask<OperationOutcome> Delete(
+        public virtual ValueTask<OperationOutcome> DeleteAsync(
             string id,
             CancellationToken cancellationToken = default) =>
             throw new NotImplementedException();

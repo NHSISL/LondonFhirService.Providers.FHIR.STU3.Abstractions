@@ -20,7 +20,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Extensio
             OutputCapabilities(resource);
 
             // when
-            bool result = resource.SupportsOperation("Everything");
+            bool result = resource.SupportsOperation("EverythingAsync");
 
             // then
             result.Should().BeTrue();
@@ -34,7 +34,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Extensio
             OutputCapabilities(resource);
 
             // when
-            bool result = resource.SupportsOperation("Read");
+            bool result = resource.SupportsOperation("ReadAsync");
 
             // then
             result.Should().BeFalse();
@@ -48,7 +48,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Extensio
             OutputCapabilities(resource);
 
             // when
-            bool result = resource.SupportsOperation("Everything");
+            bool result = resource.SupportsOperation("EverythingAsync");
 
             // then
             result.Should().BeFalse();
@@ -79,16 +79,16 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Extensio
             OutputCapabilities(resource);
 
             // when
-            bool result = resource.SupportsOperation("everything");
+            bool result = resource.SupportsOperation("everythingAsync");
 
             // then
             result.Should().BeFalse();
         }
 
         [Theory]
-        [InlineData("Everything", true)]
-        [InlineData("Read", false)]
-        [InlineData("Search", false)]
+        [InlineData("EverythingAsync", true)]
+        [InlineData("ReadAsync", false)]
+        [InlineData("SearchAsync", false)]
         public void EvaluatesKnownOperationsConsistently(string operationName, bool expected)
         {
             // given
