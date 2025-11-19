@@ -29,7 +29,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Models
         /// <param name="count">Optional page size limit.</param>
         /// <returns>A bundle of resources related to the patient.</returns>
         [FhirOperation]
-        public async ValueTask<Bundle> Everything(
+        public async ValueTask<Bundle> EverythingAsync(
             string id,
             DateTimeOffset? start = null,
             DateTimeOffset? end = null,
