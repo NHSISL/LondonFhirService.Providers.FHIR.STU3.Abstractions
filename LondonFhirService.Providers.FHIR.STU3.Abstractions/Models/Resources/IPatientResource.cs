@@ -137,7 +137,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// </returns>
         ValueTask<Bundle> GetStructuredRecordAsync(
             string nhsNumber,
-            DateTime? dateOfBirth = null,
+            string dateOfBirth = null,
             bool? demographicsOnly = null,
             bool? includeInactivePatients = null,
             CancellationToken cancellationToken = default);
@@ -190,7 +190,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Resources
         /// </returns>
         ValueTask<string> GetStructuredRecordSerialisedAsync(
             string nhsNumber,
-            DateTime? dateOfBirth = null,
+            string dateOfBirth = null,
             bool? demographicsOnly = null,
             bool? includeInactivePatients = null,
             CancellationToken cancellationToken = default);
