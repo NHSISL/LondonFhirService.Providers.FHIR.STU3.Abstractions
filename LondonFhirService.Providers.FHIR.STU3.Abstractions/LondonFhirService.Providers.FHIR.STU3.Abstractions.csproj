@@ -51,7 +51,7 @@
 	<ItemGroup>
 	  <PackageReference Include="Hl7.Fhir.STU3" Version="6.2.0" />
 	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.8" />
-	  <PackageReference Include="Xeption" Version="2.8.0" />
+	  <PackageReference Include="Xeption" Version="2.9.0" />
 	</ItemGroup>
 
 	<ItemGroup>
