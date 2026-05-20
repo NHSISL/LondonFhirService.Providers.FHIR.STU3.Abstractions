@@ -1,0 +1,5 @@
+  Determining projects to restore...
+  Restored C:\NHSISL\LondonFhirService.Providers.FHIR.STU3.Abstractions\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.csproj (in 337 ms).
+  Restored C:\NHSISL\LondonFhirService.Providers.FHIR.STU3.Abstractions\LondonFhirService.Providers.FHIR.STU3.Abstractions\LondonFhirService.Providers.FHIR.STU3.Abstractions.csproj (in 337 ms).
+  Restored C:\NHSISL\LondonFhirService.Providers.FHIR.STU3.Abstractions\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance.csproj (in 337 ms).
+  Restored C:\NHSISL\LondonFhirService.Providers.FHIR.STU3.Abstractions\LondonFhirService.Providers.FHIR.STU3.Abstractions.Infrastructure\LondonFhirService.Providers.FHIR.STU3.Abstractions.Infrastructure.csproj (in 337 ms).
