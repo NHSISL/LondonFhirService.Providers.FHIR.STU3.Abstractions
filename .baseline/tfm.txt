@@ -1,6 +1,0 @@
-
-LondonFhirService.Providers.FHIR.STU3.Abstractions\LondonFhirService.Providers.FHIR.STU3.Abstractions.csproj:4:		<TargetFramework>net10.0</TargetFramework>
-LondonFhirService.Providers.FHIR.STU3.Abstractions.Infrastructure\LondonFhirService.Providers.FHIR.STU3.Abstractions.Infrastructure.csproj:5:		<TargetFramework>net10.0</TargetFramework>
-LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance.csproj:4:		<TargetFramework>net10.0</TargetFramework>
-LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.csproj:4:		<TargetFramework>net10.0</TargetFramework>
-

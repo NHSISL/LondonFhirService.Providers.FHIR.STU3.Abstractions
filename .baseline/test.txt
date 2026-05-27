@@ -1,8 +1,0 @@
-Test run for C:\NHSISL\LondonFhirService.Providers.FHIR.STU3.Abstractions\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance\bin\Debug\net10.0\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance.dll (.NETCoreApp,Version=v10.0)
-Test run for C:\NHSISL\LondonFhirService.Providers.FHIR.STU3.Abstractions\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit\bin\Debug\net10.0\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.dll (.NETCoreApp,Version=v10.0)
-A total of 1 test files matched the specified pattern.
-A total of 1 test files matched the specified pattern.
-No test is available in C:\NHSISL\LondonFhirService.Providers.FHIR.STU3.Abstractions\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance\bin\Debug\net10.0\LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Acceptance.dll. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again.
-
-
-Passed!  - Failed:     0, Passed:    50, Skipped:     0, Total:    50, Duration: 2 s - LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.dll (net10.0)
