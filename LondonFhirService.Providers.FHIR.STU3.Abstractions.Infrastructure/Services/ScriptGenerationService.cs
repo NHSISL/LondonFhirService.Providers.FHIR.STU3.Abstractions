@@ -154,8 +154,7 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Infrastructure.Serv
                 {
                     PullRequest = new PullRequestEvent
                     {
-                        Types = ["opened", "edited", "synchronize", "reopened", "closed"],
-                        Branches = [branchName]
+                        Types = ["opened", "edited", "synchronize", "reopened", "closed"]
                     }
                 },
 
@@ -173,6 +172,13 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Infrastructure.Serv
                         new RequireIssueOrTaskJobV2(excludedAuthors: "dependabot[bot]")
                         {
                             Name = "Require Issue Or Task Association",
+                        }
+                    },
+                    {
+                        "setAuthorAsPrAssignee",
+                        new SetAuthorAsPrAssigneeJobV2(runsOn: BuildMachines.UbuntuLatest)
+                        {
+                            Name = "Set Author As PR Assignee",
                         }
                     },
                 }
