@@ -154,7 +154,8 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Infrastructure.Serv
                 {
                     PullRequest = new PullRequestEvent
                     {
-                        Types = ["opened", "edited", "synchronize", "reopened", "closed"]
+                        Types = ["opened", "edited", "synchronize", "reopened", "closed"],
+                        Branches = [branchName]
                     }
                 },
 
