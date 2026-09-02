@@ -15,24 +15,6 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions
         string ProviderName { get; }
 
         /// <summary>
-        /// Gets the canonical source URI for the provider. This value is placed in Bundle.meta.source to
-        /// indicate the origin system of the resources.
-        /// </summary>
-        string Source { get; }
-
-        /// <summary>
-        /// Gets the short code representing this provider. This value is placed in Bundle.meta.tag.code
-        /// for quick filtering and grouping of Bundles.
-        /// </summary>
-        string Code { get; }
-
-        /// <summary>
-        /// Gets the CodeSystem URI that defines the namespace for provider codes. This value is placed
-        /// in Bundle.meta.tag.system alongside the Code.
-        /// </summary>
-        string System { get; }
-
-        /// <summary>
         /// Gets the display name for this provider. This value is placed in Bundle.meta.tag.display
         /// This is a human-readable name for the provider. 
         /// </summary>

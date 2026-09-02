@@ -23,24 +23,6 @@ namespace LondonFhirService.Providers.FHIR.STU3.Abstractions
         public virtual string ProviderName => GetType().FullName ?? GetType().Name;
 
         /// <summary>
-        /// Gets the canonical source URI for the provider. This value is placed in Bundle.meta.source to
-        /// indicate the origin system of the resources.
-        /// </summary>
-        public abstract string Source { get; }
-
-        /// <summary>
-        /// Gets the short code representing this provider. This value is placed in Bundle.meta.tag.code
-        /// for quick filtering and grouping of Bundles.
-        /// </summary>
-        public abstract string Code { get; }
-
-        /// <summary>
-        /// Gets the CodeSystem URI that defines the namespace for provider codes. This value is placed
-        /// in Bundle.meta.tag.system alongside the Code.
-        /// </summary>
-        public abstract string System { get; }
-
-        /// <summary>
         /// Gets the display name for this provider. This value is placed in Bundle.meta.tag.display
         /// This is a human-readable name for the provider. 
         /// </summary>
