@@ -50,7 +50,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Hl7.Fhir.STU3" Version="6.3.0" />
+	  <PackageReference Include="Hl7.Fhir.STU3" Version="6.4.0" />
 	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.10" />
 	  <PackageReference Include="Xeption" Version="2.9.0" />
 	</ItemGroup>
