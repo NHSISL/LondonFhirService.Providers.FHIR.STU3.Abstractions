@@ -6,7 +6,6 @@ using System;
 using System.Linq;
 using FluentAssertions;
 using LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Models;
-using Xunit.Abstractions;
 
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Capabilities
 {
