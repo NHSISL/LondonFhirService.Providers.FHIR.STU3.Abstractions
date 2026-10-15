@@ -7,7 +7,6 @@ using System.Linq;
 using Hl7.Fhir.Model;
 using LondonFhirService.Providers.FHIR.STU3.Abstractions.Models.Capabilities;
 using Moq;
-using Xunit.Abstractions;
 
 
 namespace LondonFhirService.Providers.FHIR.STU3.Abstractions.Tests.Unit.Extensions
